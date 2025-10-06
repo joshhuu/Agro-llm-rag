@@ -1,0 +1,172 @@
+{
+  "path": "c:\\Users\\Admin\\Documents\\PROJECTS\\SIH\\data\\1900121_tech.nc",
+  "dimensions": {
+    "N_TECH_PARAM": 1287
+  },
+  "global_attributes": {
+    "title": "Argo float technical data file",
+    "institution": "INCOIS",
+    "source": "Argo float",
+    "history": "2015-10-12T09:27:39Z creation",
+    "references": "http://www.argodatamgt.org/Documentation",
+    "user_manual_version": "3.1",
+    "Conventions": "Argo-3.1 CF-1.6"
+  },
+  "variables": {
+    "DATE_CREATION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Date of file creation",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": "20151012092739"
+    },
+    "DATE_UPDATE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Date of update of this file",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": "20151012092739"
+    },
+    "PLATFORM_NUMBER": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Float unique identifier",
+        "conventions": "WMO float identifier : A9IIIII"
+      },
+      "sample": "1900121 "
+    },
+    "DATA_CENTRE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Data centre in charge of float data processing",
+        "conventions": "Argo reference table 4"
+      },
+      "sample": "IN"
+    },
+    "DATA_TYPE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Data type",
+        "conventions": "Argo reference table 1"
+      },
+      "sample": "Argo technical data             "
+    },
+    "FORMAT_VERSION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "File format version"
+      },
+      "sample": "3.1 "
+    },
+    "HANDBOOK_VERSION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Data handbook version"
+      },
+      "sample": " 1.2"
+    },
+    "TECHNICAL_PARAMETER_NAME": {
+      "dtype": "object",
+      "shape": [
+        1287
+      ],
+      "attributes": {
+        "long_name": "Name of technical parameter"
+      },
+      "sample": [
+        "VOLTAGE_BatteryInitialAtProfileDepth_volts                                                                                      ",
+        "PRESSURE_InternalVacuum_inHg                                                                                                    ",
+        "FLAG_ProfileTermination_hex                                                                                                     ",
+        "PRES_SurfaceOffsetTruncatedPlus5dbar_dbar                                                                                       ",
+        "POSITION_PistonSurface_COUNT                                                                                                    ",
+        "TIME_PumpMotor_seconds                                                                                                          ",
+        "CURRENT_BatteryInitialAtProfileDepth_mA                                                                                         ",
+        "CURRENT_BatteryAirPumpOn_mA                                                                                                     ",
+        "POSITION_PistonProfile_COUNT                                                                                                    ",
+        "VOLTAGE_BatterySurfaceNoLoad_volts                                                                                              ",
+        "VOLTAGE_BatteryProfileNoLoad_volts                                                                                              ",
+        "PRESSURE_AirBladder_COUNT                                                                                                       ",
+        "CURRENT_BatterySBEPump_mA                                                                                                       ",
+        "VOLTAGE_BatteryInitialAtProfileDepth_volts                                                                                      ",
+        "PRESSURE_InternalVacuum_inHg                                                                                                    ",
+        "FLAG_ProfileTermination_hex                                                                                                     ",
+        "PRES_SurfaceOffsetTruncatedPlus5dbar_dbar                                                                                       ",
+        "POSITION_PistonSurface_COUNT                                                                                                    ",
+        "TIME_PumpMotor_seconds                                                                                                          ",
+        "CURRENT_BatteryInitialAtProfileDepth_mA                                                                                         "
+      ]
+    },
+    "TECHNICAL_PARAMETER_VALUE": {
+      "dtype": "object",
+      "shape": [
+        1287
+      ],
+      "attributes": {
+        "long_name": "Value of technical parameter"
+      },
+      "sample": [
+        "14.9                                                                                                                            ",
+        "6.793                                                                                                                           ",
+        "0                                                                                                                               ",
+        "6.2                                                                                                                             ",
+        "205                                                                                                                             ",
+        "990                                                                                                                             ",
+        "663                                                                                                                             ",
+        "247                                                                                                                             ",
+        "23                                                                                                                              ",
+        "16                                                                                                                              ",
+        "15.8                                                                                                                            ",
+        "148                                                                                                                             ",
+        "169                                                                                                                             ",
+        "14.8                                                                                                                            ",
+        "6.793                                                                                                                           ",
+        "0                                                                                                                               ",
+        "7.9                                                                                                                             ",
+        "219                                                                                                                             ",
+        "1052                                                                                                                            ",
+        "650                                                                                                                             "
+      ]
+    },
+    "CYCLE_NUMBER": {
+      "dtype": "float64",
+      "shape": [
+        1287
+      ],
+      "attributes": {
+        "long_name": "Float cycle number",
+        "conventions": "0...N, 0 : launch cycle (if exists), 1 : first complete cycle"
+      },
+      "sample": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    }
+  }
+}

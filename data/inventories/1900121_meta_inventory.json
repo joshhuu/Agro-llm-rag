@@ -1,0 +1,741 @@
+
+{
+  "path": "c:\\Users\\Admin\\Documents\\PROJECTS\\SIH\\data\\1900121_meta.nc",
+  "dimensions": {
+    "N_TRANS_SYSTEM": 1,
+    "N_POSITIONING_SYSTEM": 1,
+    "N_LAUNCH_CONFIG_PARAM": 14,
+    "N_CONFIG_PARAM": 14,
+    "N_MISSIONS": 1,
+    "N_SENSOR": 3,
+    "N_PARAM": 3
+  },
+  "global_attributes": {
+    "title": "Argo float metadata file",
+    "institution": "INCOIS",
+    "source": "Argo float",
+    "history": "2015-10-12T05:38:41Z creation;2015-10-13T05:54:56Z update;2015-10-13T05:59:48Z update;2015-10-13T06:10:20Z update;2015-10-13T06:31:04Z update;2015-10-13T06:33:39Z update",
+    "references": "http://www.argodatamgt.org/Documentation",
+    "user_manual_version": "3.1",
+    "Conventions": "Argo-3.1 CF-1.6"
+  },
+  "variables": {
+    "DATA_TYPE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Data type",
+        "conventions": "Argo reference table 1"
+      },
+      "sample": "Argo meta-data  "
+    },
+    "FORMAT_VERSION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "File format version"
+      },
+      "sample": "3.1 "
+    },
+    "HANDBOOK_VERSION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Data handbook version"
+      },
+      "sample": "1.2 "
+    },
+    "DATE_CREATION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Date of file creation",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": "20120831101028"
+    },
+    "DATE_UPDATE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Date of update of this file",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": "20151013063340"
+    },
+    "PLATFORM_NUMBER": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Float unique identifier",
+        "conventions": "WMO float identifier : A9IIIII"
+      },
+      "sample": "1900121 "
+    },
+    "PTT": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Transmission identifier (ARGOS, ORBCOMM, etc.)"
+      },
+      "sample": "29990                                                                                                                                                                                                                                                           "
+    },
+    "TRANS_SYSTEM": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Telecommunications system used"
+      },
+      "sample": [
+        "ARGOS           "
+      ]
+    },
+    "TRANS_SYSTEM_ID": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Program identifier used by the transmission system"
+      },
+      "sample": [
+        "02602                           "
+      ]
+    },
+    "TRANS_FREQUENCY": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Frequency of transmission from the float",
+        "units": "hertz"
+      },
+      "sample": [
+        "401.65 x 10^6   "
+      ]
+    },
+    "POSITIONING_SYSTEM": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Positioning system"
+      },
+      "sample": [
+        "ARGOS   "
+      ]
+    },
+    "PLATFORM_FAMILY": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Category of instrument",
+        "conventions": "Argo reference table 22"
+      },
+      "sample": "FLOAT                                                                                                                                                                                                                                                           "
+    },
+    "PLATFORM_TYPE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Type of float",
+        "conventions": "Argo reference table 23"
+      },
+      "sample": "APEX                            "
+    },
+    "PLATFORM_MAKER": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Name of the manufacturer",
+        "conventions": "Argo reference table 24"
+      },
+      "sample": "WRC                                                                                                                                                                                                                                                             "
+    },
+    "FIRMWARE_VERSION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Firmware version for the float"
+      },
+      "sample": "92502                           "
+    },
+    "MANUAL_VERSION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Manual version for the float"
+      },
+      "sample": "82002           "
+    },
+    "FLOAT_SERIAL_NO": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Serial number of the float"
+      },
+      "sample": "763                             "
+    },
+    "STANDARD_FORMAT_ID": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Standard format number to describe the data format type for each float"
+      },
+      "sample": "001007          "
+    },
+    "DAC_FORMAT_ID": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Format number used by the DAC to describe the data format type for each float"
+      },
+      "sample": "1               "
+    },
+    "WMO_INST_TYPE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Coded instrument type",
+        "conventions": "Argo reference table 8"
+      },
+      "sample": "846 "
+    },
+    "PROJECT_NAME": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Program under which the float was deployed"
+      },
+      "sample": "Argo INDIA                                                      "
+    },
+    "DATA_CENTRE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Data centre in charge of float real-time processing",
+        "conventions": "Argo reference table 4"
+      },
+      "sample": "IN"
+    },
+    "PI_NAME": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Name of the principal investigator"
+      },
+      "sample": "M Ravichandran                                                  "
+    },
+    "ANOMALY": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Describe any anomalies or problems the float may have had"
+      },
+      "sample": "                                                                                                                                                                                                                                                                "
+    },
+    "BATTERY_TYPE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Type of battery packs in the float"
+      },
+      "sample": "Alkaline                                                        "
+    },
+    "BATTERY_PACKS": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Configuration of battery packs in the float"
+      },
+      "sample": "3D Alk + 1C Alk                                                 "
+    },
+    "CONTROLLER_BOARD_TYPE_PRIMARY": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Type of primary controller board"
+      },
+      "sample": "APF8                            "
+    },
+    "CONTROLLER_BOARD_TYPE_SECONDARY": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Type of secondary controller board"
+      },
+      "sample": "                                "
+    },
+    "CONTROLLER_BOARD_SERIAL_NO_PRIMARY": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Serial number of the primary controller board"
+      },
+      "sample": "8c-1082                         "
+    },
+    "CONTROLLER_BOARD_SERIAL_NO_SECONDARY": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Serial number of the secondary controller board"
+      },
+      "sample": "                                "
+    },
+    "SPECIAL_FEATURES": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Extra features of the float (algorithms, compressee etc.)"
+      },
+      "sample": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
+    },
+    "FLOAT_OWNER": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Float owner"
+      },
+      "sample": "INCOIS                                                          "
+    },
+    "OPERATING_INSTITUTION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Operating institution of the float"
+      },
+      "sample": "INCOIS                                                          "
+    },
+    "CUSTOMISATION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Float customisation, i.e. (institution and modifications)"
+      },
+      "sample": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
+    },
+    "LAUNCH_DATE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Date (UTC) of the deployment",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": "20021102020000"
+    },
+    "LAUNCH_LATITUDE": {
+      "dtype": "float64",
+      "shape": [],
+      "attributes": {
+        "long_name": "Latitude of the float when deployed",
+        "units": "degree_north",
+        "valid_min": "-90.0",
+        "valid_max": "90.0"
+      },
+      "sample": -10.0
+    },
+    "LAUNCH_LONGITUDE": {
+      "dtype": "float64",
+      "shape": [],
+      "attributes": {
+        "long_name": "Longitude of the float when deployed",
+        "units": "degree_east",
+        "valid_min": "-180.0",
+        "valid_max": "180.0"
+      },
+      "sample": 56.0
+    },
+    "LAUNCH_QC": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Quality on launch date, time and location",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": "1"
+    },
+    "START_DATE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Date (UTC) of the first descent of the float",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": "20021111102843"
+    },
+    "START_DATE_QC": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Quality on start date",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": "1"
+    },
+    "STARTUP_DATE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Date (UTC) of the activation of the float",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": "              "
+    },
+    "STARTUP_DATE_QC": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Quality on startup date",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": "nan"
+    },
+    "DEPLOYMENT_PLATFORM": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Identifier of the deployment platform"
+      },
+      "sample": "orv sagar kanya                 "
+    },
+    "DEPLOYMENT_CRUISE_ID": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Identification number or reference number of the cruise used to deploy the float"
+      },
+      "sample": "                                "
+    },
+    "DEPLOYMENT_REFERENCE_STATION_ID": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Identifier or reference number of co-located stations used to verify the first profile"
+      },
+      "sample": "                                                                                                                                                                                                                                                                "
+    },
+    "END_MISSION_DATE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Date (UTC) of the end of mission of the float",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": "20050718091925"
+    },
+    "END_MISSION_STATUS": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Status of the end of mission of the float",
+        "conventions": "T:No more transmission received, R:Retrieved"
+      },
+      "sample": "T"
+    },
+    "LAUNCH_CONFIG_PARAMETER_NAME": {
+      "dtype": "object",
+      "shape": [
+        14
+      ],
+      "attributes": {
+        "long_name": "Name of configuration parameter at launch"
+      },
+      "sample": [
+        "CONFIG_TransmissionRepetitionPeriod_seconds                                                                                     ",
+        "CONFIG_ParkTime_hours                                                                                                           ",
+        "CONFIG_AscentTime_hours                                                                                                         ",
+        "CONFIG_SurfaceTime_HH                                                                                                           ",
+        "CONFIG_ParkPressure_dbar                                                                                                        ",
+        "CONFIG_UpTime_hours                                                                                                             ",
+        "CONFIG_ProfilePressure_dbar                                                                                                     ",
+        "CONFIG_MissionPreludeTime_hours                                                                                                 ",
+        "CONFIG_DownTime_hours                                                                                                           ",
+        "CONFIG_TripInterval_hours                                                                                                       ",
+        "CONFIG_CycleTime_hours                                                                                                          ",
+        "CONFIG_PistonPark_COUNT                                                                                                         ",
+        "CONFIG_PistonProfile_COUNT                                                                                                      ",
+        "CONFIG_DepthTable_NUMBER                                                                                                        "
+      ]
+    },
+    "LAUNCH_CONFIG_PARAMETER_VALUE": {
+      "dtype": "float64",
+      "shape": [
+        14
+      ],
+      "attributes": {
+        "long_name": "Value of configuration parameter at launch"
+      },
+      "sample": [
+        90.0,
+        221.0,
+        9.5,
+        9.5,
+        2000.0,
+        19.0,
+        2000.0,
+        6.0,
+        221.0,
+        1.0,
+        240.0,
+        30.0,
+        25.0,
+        47.0
+      ]
+    },
+    "CONFIG_PARAMETER_NAME": {
+      "dtype": "object",
+      "shape": [
+        14
+      ],
+      "attributes": {
+        "long_name": "Name of configuration parameter"
+      },
+      "sample": [
+        "CONFIG_TransmissionRepetitionPeriod_seconds                                                                                     ",
+        "CONFIG_ParkTime_hours                                                                                                           ",
+        "CONFIG_AscentTime_hours                                                                                                         ",
+        "CONFIG_SurfaceTime_HH                                                                                                           ",
+        "CONFIG_ParkPressure_dbar                                                                                                        ",
+        "CONFIG_UpTime_hours                                                                                                             ",
+        "CONFIG_ProfilePressure_dbar                                                                                                     ",
+        "CONFIG_MissionPreludeTime_hours                                                                                                 ",
+        "CONFIG_DownTime_hours                                                                                                           ",
+        "CONFIG_TripInterval_hours                                                                                                       ",
+        "CONFIG_CycleTime_hours                                                                                                          ",
+        "CONFIG_PistonPark_COUNT                                                                                                         ",
+        "CONFIG_PistonProfile_COUNT                                                                                                      ",
+        "CONFIG_DepthTable_NUMBER                                                                                                        "
+      ]
+    },
+    "CONFIG_PARAMETER_VALUE": {
+      "dtype": "float64",
+      "shape": [
+        1,
+        14
+      ],
+      "attributes": {
+        "long_name": "Value of configuration parameter"
+      },
+      "sample": [
+        [
+          90.0,
+          221.0,
+          9.5,
+          9.5,
+          2000.0,
+          19.0,
+          2000.0,
+          6.0,
+          221.0,
+          1.0,
+          240.0,
+          30.0,
+          25.0,
+          47.0
+        ]
+      ]
+    },
+    "CONFIG_MISSION_NUMBER": {
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Unique number denoting the missions performed by the float",
+        "conventions": "1...N, 1 : first complete mission"
+      },
+      "sample": [
+        1.0
+      ]
+    },
+    "CONFIG_MISSION_COMMENT": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Comment on configuration"
+      },
+      "sample": [
+        "                                                                                                                                                                                                                                                                "
+      ]
+    },
+    "SENSOR": {
+      "dtype": "object",
+      "shape": [
+        3
+      ],
+      "attributes": {
+        "long_name": "Name of the sensor mounted on the float",
+        "conventions": "Argo reference table 25"
+      },
+      "sample": [
+        "CTD_TEMP                        ",
+        "CTD_CNDC                        ",
+        "CTD_PRES                        "
+      ]
+    },
+    "SENSOR_MAKER": {
+      "dtype": "object",
+      "shape": [
+        3
+      ],
+      "attributes": {
+        "long_name": "Name of the sensor manufacturer",
+        "conventions": "Argo reference table 26"
+      },
+      "sample": [
+        "SBE                                                                                                                                                                                                                                                             ",
+        "SBE                                                                                                                                                                                                                                                             ",
+        "SBE                                                                                                                                                                                                                                                             "
+      ]
+    },
+    "SENSOR_MODEL": {
+      "dtype": "object",
+      "shape": [
+        3
+      ],
+      "attributes": {
+        "long_name": "Type of sensor",
+        "conventions": "Argo reference table 27"
+      },
+      "sample": [
+        "SBE41                                                                                                                                                                                                                                                           ",
+        "SBE41                                                                                                                                                                                                                                                           ",
+        "AMETEK                                                                                                                                                                                                                                                          "
+      ]
+    },
+    "SENSOR_SERIAL_NO": {
+      "dtype": "object",
+      "shape": [
+        3
+      ],
+      "attributes": {
+        "long_name": "Serial number of the sensor"
+      },
+      "sample": [
+        "805             ",
+        "805             ",
+        "2657730294      "
+      ]
+    },
+    "PARAMETER": {
+      "dtype": "object",
+      "shape": [
+        3
+      ],
+      "attributes": {
+        "long_name": "Name of parameter computed from float measurements",
+        "conventions": "Argo reference table 3"
+      },
+      "sample": [
+        "TEMP                                                            ",
+        "PSAL                                                            ",
+        "PRES                                                            "
+      ]
+    },
+    "PARAMETER_SENSOR": {
+      "dtype": "object",
+      "shape": [
+        3
+      ],
+      "attributes": {
+        "long_name": "Name of the sensor that measures this parameter",
+        "conventions": "Argo reference table 25"
+      },
+      "sample": [
+        "CTD_TEMP                                                                                                                        ",
+        "CTD_CNDC                                                                                                                        ",
+        "CTD_PRES                                                                                                                        "
+      ]
+    },
+    "PARAMETER_UNITS": {
+      "dtype": "object",
+      "shape": [
+        3
+      ],
+      "attributes": {
+        "long_name": "Units of accuracy and resolution of the parameter"
+      },
+      "sample": [
+        "deg C                           ",
+        "Siemens/meter                   ",
+        "decibars                        "
+      ]
+    },
+    "PARAMETER_ACCURACY": {
+      "dtype": "object",
+      "shape": [
+        3
+      ],
+      "attributes": {
+        "long_name": "Accuracy of the parameter"
+      },
+      "sample": [
+        "0                               ",
+        "0                               ",
+        "0                               "
+      ]
+    },
+    "PARAMETER_RESOLUTION": {
+      "dtype": "object",
+      "shape": [
+        3
+      ],
+      "attributes": {
+        "long_name": "Resolution of the parameter"
+      },
+      "sample": [
+        "0                               ",
+        "0                               ",
+        "0                               "
+      ]
+    },
+    "PREDEPLOYMENT_CALIB_EQUATION": {
+      "dtype": "object",
+      "shape": [
+        3
+      ],
+      "attributes": {
+        "long_name": "Calibration equation for this parameter"
+      },
+      "sample": [
+        "y=thermistor output; t=PTHA0+PTHA1*y+PTHA2*y^2; x=pressure output-PTCA0+PTCA1*t+PTCA2*t^2; n=x*PTCB0/(PTCB0+PTCB1*t+PTCB2*t^2); pressure (psia)=PA0+PA1*n+PA2*n^2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+        "Temperature ITS-90 = 1/ { a0 + a1[lambda nu (n)] + a2 [lambda nu^2 (n)] + a3 [lambda nu^3 (n)]} - 273.15 (deg C)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",
+        " f = inst freq * sqrt(1.0 + WBOTC * t) / 1000.0; t = temperature [deg C]; p = pressure [decibars]; delta = CTcor; epsilon = CPcor; Conductivity = (g + hf^2 + if^3 + jf^4)/(1+ delta t + epsilon p) Siemens/meter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "
+      ]
+    },
+    "PREDEPLOYMENT_CALIB_COEFFICIENT": {
+      "dtype": "object",
+      "shape": [
+        3
+      ],
+      "attributes": {
+        "long_name": "Calibration coefficients for this equation"
+      },
+      "sample": [
+        "ser# = 805 pressure coeffs: PA0 = -1.55 PA1 = 0.141 PA2 = 1.72e-08 PTCA0 = 16.3 PTCA1 = -0.777 PTCA2 = 0.0132 PTCB0 = 101 PTCB1 = 0.00769 PTCB2 = -0.000149 PTHA0 = 56.5 PTHA1 = -0.0544 PTHA2 = 1.26e-05                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ",
+        "ser# = 805 temperature coeffs: A0 =  -0.0001 A1 =   0.0003 A2 =  -0.0000 A3 =   0.0000                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ",
+        "ser# = 805 conductivity coeffs: G =  -0.9550 H =   0.1330 I =  -0.0001 J =   0.0000 CPCOR =  -0.0000 CTCOR =   0.0000 WBOTC =   0.0000                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+      ]
+    },
+    "PREDEPLOYMENT_CALIB_COMMENT": {
+      "dtype": "object",
+      "shape": [
+        3
+      ],
+      "attributes": {
+        "long_name": "Comment applying to this parameter calibration"
+      },
+      "sample": [
+        "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",
+        "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",
+        "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
+      ]
+    }
+  }
+}

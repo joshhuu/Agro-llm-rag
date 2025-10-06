@@ -1,0 +1,2757 @@
+{
+  "path": "c:\\Users\\Admin\\Documents\\PROJECTS\\SIH\\data\\1900121_Rtraj.nc",
+  "dimensions": {
+    "N_PARAM": 3,
+    "N_MEASUREMENT": 1847,
+    "N_CYCLE": 99,
+    "N_HISTORY": 1
+  },
+  "global_attributes": {
+    "title": "Argo float trajectory file",
+    "institution": "INCOIS",
+    "source": "Argo float",
+    "history": "2016-06-23T03:20:57Z creation;2016-06-23T03:21:37Z update",
+    "references": "http://www.argodatamgt.org/Documentation",
+    "user_manual_version": "3.1",
+    "Conventions": "Argo-3.1 CF-1.6",
+    "featureType": "trajectory",
+    "comment_on_resolution": "PRES variable resolution depends on measurement codes"
+  },
+  "variables": {
+    "DATE_CREATION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Date of file creation",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": "20160623032057"
+    },
+    "DATE_UPDATE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Date of update of this file",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": "20160623085137"
+    },
+    "PLATFORM_NUMBER": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Float unique identifier",
+        "conventions": "WMO float identifier : A9IIIII"
+      },
+      "sample": "1900121 "
+    },
+    "DATA_CENTRE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Data centre in charge of float data processing",
+        "conventions": "Argo reference table 4"
+      },
+      "sample": "IN"
+    },
+    "WMO_INST_TYPE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Coded instrument type",
+        "conventions": "Argo reference table 8"
+      },
+      "sample": "846 "
+    },
+    "PROJECT_NAME": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Name of the project"
+      },
+      "sample": "Argo INDIA                                                      "
+    },
+    "PI_NAME": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Name of the principal investigator"
+      },
+      "sample": "M Ravichandran                                                  "
+    },
+    "DATA_TYPE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Data type",
+        "conventions": "Argo reference table 1"
+      },
+      "sample": "Argo trajectory "
+    },
+    "FORMAT_VERSION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "File format version"
+      },
+      "sample": "3.1 "
+    },
+    "HANDBOOK_VERSION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Data handbook version"
+      },
+      "sample": " 3.1"
+    },
+    "REFERENCE_DATE_TIME": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Date of reference for Julian days",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": "19500101000000"
+    },
+    "POSITIONING_SYSTEM": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Positioning system"
+      },
+      "sample": "ARGOS   "
+    },
+    "TRAJECTORY_PARAMETERS": {
+      "dtype": "object",
+      "shape": [
+        3
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 3",
+        "long_name": "List of available parameters for the station"
+      },
+      "sample": [
+        "PRES            ",
+        "TEMP            ",
+        "PSAL            "
+      ]
+    },
+    "DATA_STATE_INDICATOR": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Degree of processing the data have passed through",
+        "conventions": "Argo reference table 6"
+      },
+      "sample": "2B  "
+    },
+    "PLATFORM_TYPE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Type of float",
+        "conventions": "Argo reference table 23"
+      },
+      "sample": "APEX                            "
+    },
+    "FLOAT_SERIAL_NO": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Serial number of the float"
+      },
+      "sample": "763                             "
+    },
+    "FIRMWARE_VERSION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Instrument firmware version"
+      },
+      "sample": "092502                          "
+    },
+    "JULD": {
+      "dtype": "float64",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Julian day (UTC) of each measurement relative to REFERENCE_DATE_TIME",
+        "standard_name": "time",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "resolution": "0.01",
+        "axis": "T"
+      },
+      "sample": [
+        2452580.5833333335,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        19307.38226851821,
+        19307.389212962706,
+        19307.431921296287,
+        19307.436608796474,
+        19307.550150462892,
+        19307.569942129776,
+        19307.609004629776,
+        19307.639733796474,
+        19307.6772337961,
+        19307.720983796287,
+        19307.790254629683,
+        19307.90119212959,
+        19307.905879629776,
+        NaN,
+        NaN
+      ]
+    },
+    "JULD_STATUS": {
+      "dtype": "object",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Status of the date and time",
+        "conventions": "Argo reference table 19"
+      },
+      "sample": [
+        "nan",
+        "9",
+        "9",
+        "9",
+        "9",
+        "3",
+        "3",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "9",
+        "nan"
+      ]
+    },
+    "JULD_QC": {
+      "dtype": "object",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Quality on date and time",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "1",
+        "nan",
+        "nan",
+        "0",
+        "nan",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "nan",
+        "nan"
+      ]
+    },
+    "JULD_ADJUSTED": {
+      "dtype": "float64",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Adjusted julian day (UTC) of each measurement relative to REFERENCE_DATE_TIME",
+        "standard_name": "time",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "resolution": "0.01",
+        "axis": "T"
+      },
+      "sample": [
+        NaN,
+        19298.08333333349,
+        19298.340534979478,
+        NaN,
+        19307.144780621864,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        19307.936447288375,
+        NaN
+      ]
+    },
+    "JULD_ADJUSTED_STATUS": {
+      "dtype": "object",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Status of the JULD_ADJUSTED date",
+        "conventions": "Argo reference table 19"
+      },
+      "sample": [
+        "nan",
+        "1",
+        "1",
+        "nan",
+        "1",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "1",
+        "nan"
+      ]
+    },
+    "JULD_ADJUSTED_QC": {
+      "dtype": "object",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Quality on adjusted date and time",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "nan",
+        "0",
+        "0",
+        "nan",
+        "0",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "0",
+        "nan"
+      ]
+    },
+    "LATITUDE": {
+      "dtype": "float64",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Latitude of each location",
+        "standard_name": "latitude",
+        "units": "degree_north",
+        "valid_min": "-90.0",
+        "valid_max": "90.0",
+        "axis": "Y"
+      },
+      "sample": [
+        -10.0,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        -9.857,
+        -9.843,
+        -9.844,
+        -9.842,
+        -9.833,
+        -9.837,
+        -9.83,
+        -9.829,
+        -9.829,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "LONGITUDE": {
+      "dtype": "float64",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Longitude of each location",
+        "standard_name": "longitude",
+        "units": "degree_east",
+        "valid_min": "-180.0",
+        "valid_max": "180.0",
+        "axis": "X"
+      },
+      "sample": [
+        56.0,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        55.953,
+        55.903,
+        55.874,
+        55.854,
+        55.835,
+        55.823,
+        55.803,
+        55.784,
+        55.742,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "POSITION_ACCURACY": {
+      "dtype": "object",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Estimated accuracy in latitude and longitude",
+        "conventions": "Argo reference table 5"
+      },
+      "sample": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "1",
+        "1",
+        "2",
+        "3",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "POSITION_QC": {
+      "dtype": "object",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Quality on position",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "1",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "CYCLE_NUMBER": {
+      "dtype": "float64",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Float cycle number of the measurement",
+        "conventions": "0...N, 0 : launch cycle, 1 : first complete cycle"
+      },
+      "sample": [
+        -1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "CYCLE_NUMBER_ADJUSTED": {
+      "dtype": "float64",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Adjusted float cycle number of the measurement",
+        "conventions": "0...N, 0 : launch cycle, 1 : first complete cycle"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "MEASUREMENT_CODE": {
+      "dtype": "float64",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Flag referring to a measurement event in the cycle",
+        "conventions": "Argo reference table 15"
+      },
+      "sample": [
+        0.0,
+        100.0,
+        250.0,
+        400.0,
+        500.0,
+        600.0,
+        700.0,
+        702.0,
+        703.0,
+        703.0,
+        703.0,
+        703.0,
+        703.0,
+        703.0,
+        703.0,
+        703.0,
+        703.0,
+        704.0,
+        800.0,
+        903.0
+      ]
+    },
+    "PRES": {
+      "dtype": "float32",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Sea water pressure, equals 0 at sea-level",
+        "standard_name": "sea_water_pressure",
+        "units": "decibar",
+        "valid_min": "0.0",
+        "valid_max": "12000.0",
+        "C_format": "%7.1f",
+        "FORTRAN_format": "F7.1",
+        "axis": "Z",
+        "resolution": "0.0"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        1.2000000476837158
+      ]
+    },
+    "PRES_QC": {
+      "dtype": "object",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "quality flag",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "PRES_ADJUSTED": {
+      "dtype": "float32",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Sea water pressure, equals 0 at sea-level",
+        "standard_name": "sea_water_pressure",
+        "units": "decibar",
+        "valid_min": "0.0",
+        "valid_max": "12000.0",
+        "comment": "In situ measurement, sea surface = 0",
+        "C_format": "%7.1f",
+        "FORTRAN_format": "F7.1",
+        "resolution": "0.0"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "PRES_ADJUSTED_QC": {
+      "dtype": "object",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "quality flag",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "PRES_ADJUSTED_ERROR": {
+      "dtype": "float32",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Contains the error on the adjusted values as determined by the delayed mode QC process",
+        "units": "decibar",
+        "C_format": "%7.1f",
+        "FORTRAN_format": "F7.1",
+        "resolution": "0.0"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "TEMP": {
+      "dtype": "float32",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Sea temperature in-situ ITS-90 scale",
+        "standard_name": "sea_water_temperature",
+        "units": "degree_Celsius",
+        "valid_min": "-2.5",
+        "valid_max": "40.0",
+        "C_format": "%9.3f",
+        "FORTRAN_format": "F9.3",
+        "resolution": "1.0"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "TEMP_QC": {
+      "dtype": "object",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "quality flag",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "TEMP_ADJUSTED": {
+      "dtype": "float32",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Sea temperature in-situ ITS-90 scale",
+        "standard_name": "sea_water_temperature",
+        "units": "degree_Celsius",
+        "valid_min": "-2.5",
+        "valid_max": "40.0",
+        "comment": "In situ measurement",
+        "C_format": "%9.3f",
+        "FORTRAN_format": "F9.3",
+        "resolution": "1.0"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "TEMP_ADJUSTED_QC": {
+      "dtype": "object",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "quality flag",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "TEMP_ADJUSTED_ERROR": {
+      "dtype": "float32",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Contains the error on the adjusted values as determined by the delayed mode QC process",
+        "units": "degree_Celsius",
+        "C_format": "%9.3f",
+        "FORTRAN_format": "F9.3",
+        "resolution": "1.0"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "PSAL": {
+      "dtype": "float32",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Practical salinity",
+        "standard_name": "sea_water_salinity",
+        "units": "psu",
+        "valid_min": "2.0",
+        "valid_max": "41.0",
+        "C_format": "%9.3f",
+        "FORTRAN_format": "F9.3",
+        "resolution": "0.001"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "PSAL_QC": {
+      "dtype": "object",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "quality flag",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "PSAL_ADJUSTED": {
+      "dtype": "float32",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Practical salinity",
+        "standard_name": "sea_water_salinity",
+        "units": "psu",
+        "valid_min": "2.0",
+        "valid_max": "41.0",
+        "comment": "In situ measurement",
+        "C_format": "%9.3f",
+        "FORTRAN_format": "F9.3",
+        "resolution": "0.001"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "PSAL_ADJUSTED_QC": {
+      "dtype": "object",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "quality flag",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "PSAL_ADJUSTED_ERROR": {
+      "dtype": "float32",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Contains the error on the adjusted values as determined by the delayed mode QC process",
+        "units": "psu",
+        "C_format": "%9.3f",
+        "FORTRAN_format": "F9.3",
+        "resolution": "0.001"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "AXES_ERROR_ELLIPSE_MAJOR": {
+      "dtype": "float32",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Major axis of error ellipse from positioning system",
+        "units": "meters"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "AXES_ERROR_ELLIPSE_MINOR": {
+      "dtype": "float32",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Minor axis of error ellipse from positioning system",
+        "units": "meters"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "AXES_ERROR_ELLIPSE_ANGLE": {
+      "dtype": "float32",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Angle of error ellipse from positioning system",
+        "units": "Degrees (from North when heading East)"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "SATELLITE_NAME": {
+      "dtype": "object",
+      "shape": [
+        1847
+      ],
+      "attributes": {
+        "long_name": "Satellite name from positioning system"
+      },
+      "sample": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "JULD_ASCENT_START": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Start date of the ascent to the surface",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        19307.144780621864,
+        19317.144734608475,
+        19327.144688595552,
+        19337.14464258263,
+        19347.14459656924,
+        19357.144550556317,
+        19367.144504543394,
+        19377.144458530005,
+        19387.144412517082,
+        19397.14436650416,
+        19407.14432049077,
+        19417.144274477847,
+        19427.144228464458,
+        19437.144182451535,
+        19447.144136438612,
+        19457.144090425223,
+        19467.1440444123,
+        19477.143998399377,
+        19487.143952385988,
+        19497.143906373065
+      ]
+    },
+    "JULD_ASCENT_START_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of start date of the ascent to the surface"
+      },
+      "sample": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "JULD_ASCENT_END": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "End date of ascent to the surface",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        19307.38226851821,
+        19317.393819444347,
+        19327.395879629534,
+        19337.40027777804,
+        19347.394004629925,
+        19357.397175925784,
+        19367.37141203694,
+        19377.395995370112,
+        19387.399212962948,
+        19397.39243055554,
+        19407.39099537069,
+        19417.38849537028,
+        19427.391018518247,
+        19437.398310184944,
+        19447.379490740597,
+        19457.39416666655,
+        19467.391180555336,
+        19477.396388888825,
+        19487.399467592593,
+        19497.384236111306
+      ]
+    },
+    "JULD_ASCENT_END_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of end date of ascent to the surface"
+      },
+      "sample": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "JULD_DESCENT_START": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Descent start date of the cycle",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        19298.08333333349,
+        19307.936447288375,
+        19317.936401274987,
+        19327.936355262063,
+        19337.93630924914,
+        19347.93626323575,
+        19357.93621722283,
+        19367.936171209905,
+        19377.936125196517,
+        19387.936079183593,
+        19397.93603317067,
+        19407.93598715728,
+        19417.93594114436,
+        19427.93589513097,
+        19437.935849118046,
+        19447.935803105123,
+        19457.935757091735,
+        19467.93571107881,
+        19477.93566506589,
+        19487.9356190525
+      ]
+    },
+    "JULD_DESCENT_START_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of descent start date of the cycle"
+      },
+      "sample": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "JULD_DESCENT_END": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Descent end date of the cycle",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "JULD_DESCENT_END_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of descent end date of the cycle"
+      },
+      "sample": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "JULD_TRANSMISSION_START": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Start date of transmission",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        19307.389212962706,
+        19317.400763888843,
+        19327.40282407403,
+        19337.407222222537,
+        19347.40094907442,
+        19357.40412037028,
+        19367.378356481437,
+        19377.40293981461,
+        19387.406157407444,
+        19397.399375000037,
+        19407.397939815186,
+        19417.395439814776,
+        19427.397962962743,
+        19437.40525462944,
+        19447.386435185093,
+        19457.401111111045,
+        19467.398124999832,
+        19477.40333333332,
+        19487.40641203709,
+        19497.391180555802
+      ]
+    },
+    "JULD_TRANSMISSION_START_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of start date of transmission"
+      },
+      "sample": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "JULD_FIRST_STABILIZATION": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Time when a float first becomes water-neutral",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "JULD_FIRST_STABILIZATION_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of time when a float first becomes water-neutral"
+      },
+      "sample": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "JULD_PARK_START": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Drift start date of the cycle",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        19298.340534979478,
+        19308.193648934364,
+        19318.193602920976,
+        19328.193556908052,
+        19338.19351089513,
+        19348.19346488174,
+        19358.193418868817,
+        19368.193372855894,
+        19378.193326842505,
+        19388.193280829582,
+        19398.19323481666,
+        19408.19318880327,
+        19418.193142790347,
+        19428.19309677696,
+        19438.193050764035,
+        19448.193004751112,
+        19458.192958737724,
+        19468.1929127248,
+        19478.192866711877,
+        19488.19282069849
+      ]
+    },
+    "JULD_PARK_START_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of drift start date of the cycle"
+      },
+      "sample": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "JULD_PARK_END": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Drift end date of the cycle",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "JULD_PARK_END_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of drift end date of the cycle"
+      },
+      "sample": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "JULD_DEEP_PARK_START": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Deep park start date of the cycle",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "JULD_DEEP_PARK_START_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of deep park start date of the cycle"
+      },
+      "sample": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "JULD_DEEP_DESCENT_END": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Deep descent end date of the cycle",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "JULD_DEEP_DESCENT_END_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of deep descent end date of the cycle"
+      },
+      "sample": [
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9"
+      ]
+    },
+    "JULD_DEEP_ASCENT_START": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Deep ascent start date of the cycle",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "JULD_DEEP_ASCENT_START_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of deep ascent start date of the cycle"
+      },
+      "sample": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "JULD_TRANSMISSION_END": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Transmission end date",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        19307.936447288375,
+        19317.936401274987,
+        19327.936355262063,
+        19337.93630924914,
+        19347.93626323575,
+        19357.93621722283,
+        19367.936171209905,
+        19377.936125196517,
+        19387.936079183593,
+        19397.93603317067,
+        19407.93598715728,
+        19417.93594114436,
+        19427.93589513097,
+        19437.935849118046,
+        19447.935803105123,
+        19457.935757091735,
+        19467.93571107881,
+        19477.93566506589,
+        19487.9356190525,
+        19497.935573039576
+      ]
+    },
+    "JULD_TRANSMISSION_END_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of transmission end date"
+      },
+      "sample": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "JULD_FIRST_MESSAGE": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Date of earliest float message received",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        19307.431921296287,
+        19317.42368055554,
+        19327.41636574082,
+        19337.409305555746,
+        19347.40199074056,
+        19357.46453703707,
+        19367.387731481344,
+        19377.448773148004,
+        19387.441574073862,
+        19397.43374999985,
+        19407.425023148302,
+        19417.418356481474,
+        19427.411504629534,
+        19437.40525462944,
+        19447.395810185,
+        19457.455277777743,
+        19467.44812500011,
+        19477.43979166681,
+        19487.431412036996,
+        19497.423472222406
+      ]
+    },
+    "JULD_FIRST_MESSAGE_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of date of earliest float message received"
+      },
+      "sample": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+      ]
+    },
+    "JULD_FIRST_LOCATION": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Date of earliest location",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        19307.436608796474,
+        19317.498159722425,
+        19327.421574073844,
+        19337.412951388862,
+        19347.406678240746,
+        19357.46870370349,
+        19367.391898148227,
+        19377.45346064819,
+        19387.44469907414,
+        19397.438437500037,
+        19407.430231481325,
+        19417.422523148358,
+        19427.415150463115,
+        19437.40837962972,
+        19447.398414351977,
+        19457.459444444627,
+        19467.452812499832,
+        19477.44447916653,
+        19487.597037036903,
+        19497.428159722127
+      ]
+    },
+    "JULD_FIRST_LOCATION_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of date of earliest location"
+      },
+      "sample": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+      ]
+    },
+    "JULD_LAST_MESSAGE": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Date of latest float message received",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        19307.905879629776,
+        19317.898680555634,
+        19327.891365740914,
+        19337.88326388877,
+        19347.874907407444,
+        19357.93537037028,
+        19367.930439814925,
+        19377.923773148097,
+        19387.91553240735,
+        19397.90770833334,
+        19407.90002314793,
+        19417.892314814962,
+        19427.883379629813,
+        19437.87504629651,
+        19447.934351851698,
+        19457.930277777836,
+        19467.922083333135,
+        19477.913749999832,
+        19487.905370370485,
+        19497.896388888825
+      ]
+    },
+    "JULD_LAST_MESSAGE_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of date of latest float message received"
+      },
+      "sample": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+      ]
+    },
+    "JULD_LAST_LOCATION": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Date of latest location",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.01"
+      },
+      "sample": [
+        19307.90119212959,
+        19317.893993055448,
+        19327.887719907332,
+        19337.87909722235,
+        19347.87178240763,
+        19357.933807870373,
+        19367.857523147948,
+        19377.91856481461,
+        19387.912407407537,
+        19397.903020833153,
+        19407.897418981418,
+        19417.88814814808,
+        19427.87973379623,
+        19437.87192129623,
+        19447.931747685187,
+        19457.92559027765,
+        19467.91843750002,
+        19477.90906250011,
+        19487.901724536903,
+        19497.89274305571
+      ]
+    },
+    "JULD_LAST_LOCATION_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 19",
+        "long_name": "Status of date of latest location"
+      },
+      "sample": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+      ]
+    },
+    "CLOCK_OFFSET": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Time of float clock drift",
+        "units": "days",
+        "conventions": "Days with decimal part (as parts of day)"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "GROUNDED": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Did the profiler touch the ground for that cycle?",
+        "conventions": "Argo reference table 20"
+      },
+      "sample": [
+        "N",
+        "N",
+        "N",
+        "Y",
+        "N",
+        "N",
+        "Y",
+        "N",
+        "Y",
+        "N",
+        "N",
+        "Y",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "N",
+        "N",
+        "Y"
+      ]
+    },
+    "REPRESENTATIVE_PARK_PRESSURE": {
+      "dtype": "float32",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Best pressure value during park phase",
+        "units": "decibar"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "REPRESENTATIVE_PARK_PRESSURE_STATUS": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "conventions": "Argo reference table 21",
+        "long_name": "Status of best pressure value during park phase"
+      },
+      "sample": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan"
+      ]
+    },
+    "CONFIG_MISSION_NUMBER": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Unique number denoting the missions performed by the float",
+        "conventions": "1...N, 1 : first complete mission"
+      },
+      "sample": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "CYCLE_NUMBER_INDEX": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Cycle number that corresponds to the current index",
+        "conventions": "0...N, 0 : launch cycle, 1 : first complete cycle"
+      },
+      "sample": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0
+      ]
+    },
+    "CYCLE_NUMBER_INDEX_ADJUSTED": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Adjusted cycle number that corresponds to the current index",
+        "conventions": "0...N, 0 : launch cycle, 1 : first complete cycle"
+      },
+      "sample": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "DATA_MODE": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Delayed mode or real time data",
+        "conventions": "R : real time; D : delayed mode; A : real time with adjustment"
+      },
+      "sample": [
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R",
+        "R"
+      ]
+    },
+    "HISTORY_INSTITUTION": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Institution which performed action",
+        "conventions": "Argo reference table 4"
+      },
+      "sample": [
+        "    "
+      ]
+    },
+    "HISTORY_STEP": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Step in data processing",
+        "conventions": "Argo reference table 12"
+      },
+      "sample": [
+        "    "
+      ]
+    },
+    "HISTORY_SOFTWARE": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Name of software which performed action",
+        "conventions": "Institution dependent"
+      },
+      "sample": [
+        "    "
+      ]
+    },
+    "HISTORY_SOFTWARE_RELEASE": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Version/release of software which performed action",
+        "conventions": "Institution dependent"
+      },
+      "sample": [
+        "    "
+      ]
+    },
+    "HISTORY_REFERENCE": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Reference of database",
+        "conventions": "Institution dependent"
+      },
+      "sample": [
+        "                                                                "
+      ]
+    },
+    "HISTORY_DATE": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Date the history record was created",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": [
+        "              "
+      ]
+    },
+    "HISTORY_ACTION": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Action performed on data",
+        "conventions": "Argo reference table 7"
+      },
+      "sample": [
+        "    "
+      ]
+    },
+    "HISTORY_PARAMETER": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Station parameter action is performed on",
+        "conventions": "Argo reference table 3"
+      },
+      "sample": [
+        "                "
+      ]
+    },
+    "HISTORY_PREVIOUS_VALUE": {
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Parameter/Flag previous value before action"
+      },
+      "sample": [
+        NaN
+      ]
+    },
+    "HISTORY_INDEX_DIMENSION": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Name of dimension to which HISTORY_START_INDEX and HISTORY_STOP_INDEX correspond",
+        "conventions": "C: N_CYCLE, M: N_MEASUREMENT"
+      },
+      "sample": [
+        "nan"
+      ]
+    },
+    "HISTORY_START_INDEX": {
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Start index action applied on"
+      },
+      "sample": [
+        NaN
+      ]
+    },
+    "HISTORY_STOP_INDEX": {
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Stop index action applied on"
+      },
+      "sample": [
+        NaN
+      ]
+    },
+    "HISTORY_QCTEST": {
+      "dtype": "object",
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "Documentation of tests performed, tests failed (in hex form)",
+        "conventions": "Write tests performed when ACTION=QCP$; tests failed when ACTION=QCF$"
+      },
+      "sample": [
+        "                "
+      ]
+    }
+  }
+}

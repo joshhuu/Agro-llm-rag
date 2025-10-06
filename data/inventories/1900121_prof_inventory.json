@@ -1,0 +1,1768 @@
+{
+  "path": "c:\\Users\\Admin\\Documents\\PROJECTS\\SIH\\data\\1900121_prof.nc",
+  "dimensions": {
+    "N_PROF": 99,
+    "N_PARAM": 3,
+    "N_LEVELS": 45,
+    "N_CALIB": 1,
+    "N_HISTORY": 0
+  },
+  "global_attributes": {
+    "title": "Argo float vertical profile",
+    "institution": "FR GDAC",
+    "source": "Argo float",
+    "history": "2019-04-05T12:10:19Z creation",
+    "references": "http://www.argodatamgt.org/Documentation",
+    "user_manual_version": "3.1",
+    "Conventions": "Argo-3.1 CF-1.6",
+    "featureType": "trajectoryProfile"
+  },
+  "variables": {
+    "DATA_TYPE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Data type",
+        "conventions": "Argo reference table 1"
+      },
+      "sample": "Argo profile    "
+    },
+    "FORMAT_VERSION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "File format version"
+      },
+      "sample": "3.1 "
+    },
+    "HANDBOOK_VERSION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Data handbook version"
+      },
+      "sample": "1.2 "
+    },
+    "REFERENCE_DATE_TIME": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Date of reference for Julian days",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": "19500101000000"
+    },
+    "DATE_CREATION": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Date of file creation",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": "20040615193844"
+    },
+    "DATE_UPDATE": {
+      "dtype": "object",
+      "shape": [],
+      "attributes": {
+        "long_name": "Date of update of this file",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": "20190405121019"
+    },
+    "PLATFORM_NUMBER": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Float unique identifier",
+        "conventions": "WMO float identifier : A9IIIII"
+      },
+      "sample": [
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 ",
+        "1900121 "
+      ]
+    },
+    "PROJECT_NAME": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Name of the project"
+      },
+      "sample": [
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      ",
+        "Argo INDIA                                                      "
+      ]
+    },
+    "PI_NAME": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Name of the principal investigator"
+      },
+      "sample": [
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  ",
+        "M Ravichandran                                                  "
+      ]
+    },
+    "STATION_PARAMETERS": {
+      "dtype": "object",
+      "shape": [
+        99,
+        3
+      ],
+      "attributes": {
+        "long_name": "List of available parameters for the station",
+        "conventions": "Argo reference table 3"
+      },
+      "sample": [
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            "
+      ]
+    },
+    "CYCLE_NUMBER": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Float cycle number",
+        "conventions": "0...N, 0 : launch cycle (if exists), 1 : first complete cycle"
+      },
+      "sample": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0
+      ]
+    },
+    "DIRECTION": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Direction of the station profiles",
+        "conventions": "A: ascending profiles, D: descending profiles"
+      },
+      "sample": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "DATA_CENTRE": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Data centre in charge of float data processing",
+        "conventions": "Argo reference table 4"
+      },
+      "sample": [
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN"
+      ]
+    },
+    "DC_REFERENCE": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Station unique identifier in data centre",
+        "conventions": "Data centre convention"
+      },
+      "sample": [
+        "1900121/1                       ",
+        "1900121/2                       ",
+        "1900121/3                       ",
+        "1900121/4                       ",
+        "1900121/5                       ",
+        "1900121/6                       ",
+        "1900121/7                       ",
+        "1900121/8                       ",
+        "1900121/9                       ",
+        "1900121/10                      ",
+        "1900121/11                      ",
+        "1900121/12                      ",
+        "1900121/13                      ",
+        "1900121/14                      ",
+        "1900121/15                      ",
+        "1900121/16                      ",
+        "1900121/17                      ",
+        "1900121/18                      ",
+        "1900121/19                      ",
+        "1900121/20                      "
+      ]
+    },
+    "DATA_STATE_INDICATOR": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Degree of processing the data have passed through",
+        "conventions": "Argo reference table 6"
+      },
+      "sample": [
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  ",
+        "2C  "
+      ]
+    },
+    "DATA_MODE": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Delayed mode or real time data",
+        "conventions": "R : real time; D : delayed mode; A : real time with adjustment"
+      },
+      "sample": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    "PLATFORM_TYPE": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Type of float",
+        "conventions": "Argo reference table 23"
+      },
+      "sample": [
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            ",
+        "APEX                            "
+      ]
+    },
+    "FLOAT_SERIAL_NO": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Serial number of the float"
+      },
+      "sample": [
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             ",
+        "763                             "
+      ]
+    },
+    "FIRMWARE_VERSION": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Instrument firmware version"
+      },
+      "sample": [
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          ",
+        "082002                          "
+      ]
+    },
+    "WMO_INST_TYPE": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Coded instrument type",
+        "conventions": "Argo reference table 8"
+      },
+      "sample": [
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 ",
+        "846 "
+      ]
+    },
+    "JULD": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Julian day (UTC) of the station relative to REFERENCE_DATE_TIME",
+        "standard_name": "time",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.0",
+        "axis": "T"
+      },
+      "sample": [
+        19307.389212962964,
+        19317.40076388889,
+        19327.402824074074,
+        19337.407222222224,
+        19347.400949074075,
+        19357.40412037037,
+        19367.37835648148,
+        19377.402939814816,
+        19387.406157407408,
+        19397.399375,
+        19407.397939814815,
+        19417.395439814816,
+        19427.39796296296,
+        19437.40525462963,
+        19447.386435185184,
+        19457.40111111111,
+        19467.398125,
+        19477.403333333332,
+        19487.40641203704,
+        19497.391180555554
+      ]
+    },
+    "JULD_QC": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Quality on date and time",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "JULD_LOCATION": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Julian day (UTC) of the location relative to REFERENCE_DATE_TIME",
+        "units": "days since 1950-01-01 00:00:00 UTC",
+        "conventions": "Relative julian days with decimal part (as parts of day)",
+        "resolution": "0.0"
+      },
+      "sample": [
+        19307.436608796295,
+        19317.49815972222,
+        19327.421574074073,
+        19337.412951388887,
+        19347.40667824074,
+        19357.468703703704,
+        19367.391898148147,
+        19377.453460648147,
+        19387.444699074073,
+        19397.4384375,
+        19407.43023148148,
+        19417.422523148147,
+        19427.415150462963,
+        19437.40837962963,
+        19447.39841435185,
+        19457.459444444445,
+        19467.4528125,
+        19477.44447916667,
+        19487.597037037038,
+        19497.42815972222
+      ]
+    },
+    "LATITUDE": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Latitude of the station, best estimate",
+        "standard_name": "latitude",
+        "units": "degree_north",
+        "valid_min": "-90.0",
+        "valid_max": "90.0",
+        "axis": "Y"
+      },
+      "sample": [
+        -9.857,
+        -9.925,
+        -10.024,
+        -9.986,
+        -9.825,
+        -9.712,
+        -9.743,
+        -9.989,
+        -10.059,
+        -10.105,
+        -10.221,
+        -10.151,
+        -10.25,
+        -10.158,
+        -10.114,
+        -10.232,
+        -10.318,
+        -10.286,
+        -10.145,
+        -10.326
+      ]
+    },
+    "LONGITUDE": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Longitude of the station, best estimate",
+        "standard_name": "longitude",
+        "units": "degree_east",
+        "valid_min": "-180.0",
+        "valid_max": "180.0",
+        "axis": "X"
+      },
+      "sample": [
+        55.953,
+        55.695,
+        55.666,
+        55.492,
+        55.439,
+        55.321,
+        55.198,
+        55.202,
+        55.142,
+        55.066,
+        54.957,
+        54.768,
+        54.724,
+        54.561,
+        54.538,
+        54.476,
+        54.519,
+        54.846,
+        54.781,
+        54.926
+      ]
+    },
+    "POSITION_QC": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Quality on position (latitude and longitude)",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "POSITIONING_SYSTEM": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Positioning system"
+      },
+      "sample": [
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   ",
+        "ARGOS   "
+      ]
+    },
+    "PROFILE_PRES_QC": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Global quality flag of PRES profile",
+        "conventions": "Argo reference table 2a"
+      },
+      "sample": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "PROFILE_TEMP_QC": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Global quality flag of TEMP profile",
+        "conventions": "Argo reference table 2a"
+      },
+      "sample": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "PROFILE_PSAL_QC": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Global quality flag of PSAL profile",
+        "conventions": "Argo reference table 2a"
+      },
+      "sample": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "VERTICAL_SAMPLING_SCHEME": {
+      "dtype": "object",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Vertical sampling scheme",
+        "conventions": "Argo reference table 16"
+      },
+      "sample": [
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   ",
+        "Primary sampling: discrete []                                                                                                                                                                                                                                   "
+      ]
+    },
+    "CONFIG_MISSION_NUMBER": {
+      "dtype": "float64",
+      "shape": [
+        99
+      ],
+      "attributes": {
+        "long_name": "Unique number denoting the missions performed by the float",
+        "conventions": "1...N, 1 : first complete mission"
+      },
+      "sample": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "PRES": {
+      "dtype": "float32",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "Sea water pressure, equals 0 at sea-level",
+        "standard_name": "sea_water_pressure",
+        "units": "decibar",
+        "valid_min": "0.0",
+        "valid_max": "12000.0",
+        "C_format": "%7.1f",
+        "FORTRAN_format": "F7.1",
+        "resolution": "1.0",
+        "axis": "Z"
+      },
+      "sample": [
+        5.5,
+        9.399999618530273,
+        14.300000190734863,
+        18.899999618530273,
+        23.899999618530273,
+        29.0,
+        34.400001525878906,
+        39.20000076293945,
+        43.900001525878906,
+        49.29999923706055,
+        59.400001525878906,
+        69.5999984741211,
+        79.19999694824219,
+        89.69999694824219,
+        99.4000015258789,
+        109.30000305175781,
+        119.5999984741211,
+        129.3000030517578,
+        138.89999389648438,
+        149.39999389648438
+      ]
+    },
+    "PRES_QC": {
+      "dtype": "object",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "quality flag",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n"
+      ]
+    },
+    "PRES_ADJUSTED": {
+      "dtype": "float32",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "Sea water pressure, equals 0 at sea-level",
+        "standard_name": "sea_water_pressure",
+        "units": "decibar",
+        "valid_min": "0.0",
+        "valid_max": "12000.0",
+        "C_format": "%7.1f",
+        "FORTRAN_format": "F7.1",
+        "resolution": "1.0",
+        "axis": "Z"
+      },
+      "sample": [
+        2.5999999046325684,
+        6.5,
+        11.399999618530273,
+        16.0,
+        21.0,
+        26.100000381469727,
+        31.5,
+        36.29999923706055,
+        41.0,
+        46.400001525878906,
+        56.5,
+        66.69999694824219,
+        76.30000305175781,
+        86.80000305175781,
+        96.5,
+        106.4000015258789,
+        116.69999694824219,
+        126.4000015258789,
+        136.0,
+        146.5
+      ]
+    },
+    "PRES_ADJUSTED_QC": {
+      "dtype": "object",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "quality flag",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n"
+      ]
+    },
+    "PRES_ADJUSTED_ERROR": {
+      "dtype": "float32",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "Contains the error on the adjusted values as determined by the delayed mode QC process",
+        "units": "decibar",
+        "C_format": "%7.1f",
+        "FORTRAN_format": "F7.1",
+        "resolution": "1.0"
+      },
+      "sample": [
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316,
+        2.4000000953674316
+      ]
+    },
+    "TEMP": {
+      "dtype": "float32",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "Sea temperature in-situ ITS-90 scale",
+        "standard_name": "sea_water_temperature",
+        "units": "degree_Celsius",
+        "valid_min": "-2.5",
+        "valid_max": "40.0",
+        "C_format": "%9.3f",
+        "FORTRAN_format": "F9.3",
+        "resolution": "0.001"
+      },
+      "sample": [
+        27.38800048828125,
+        27.375,
+        27.302000045776367,
+        27.26799964904785,
+        27.246999740600586,
+        27.243000030517578,
+        27.23900032043457,
+        27.231000900268555,
+        27.226999282836914,
+        27.180999755859375,
+        26.874000549316406,
+        26.231000900268555,
+        25.461000442504883,
+        23.930999755859375,
+        21.16900062561035,
+        19.968000411987305,
+        19.70800018310547,
+        18.54599952697754,
+        18.069000244140625,
+        16.922000885009766
+      ]
+    },
+    "TEMP_QC": {
+      "dtype": "object",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "quality flag",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n"
+      ]
+    },
+    "TEMP_ADJUSTED": {
+      "dtype": "float32",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "Sea temperature in-situ ITS-90 scale",
+        "standard_name": "sea_water_temperature",
+        "units": "degree_Celsius",
+        "valid_min": "-2.5",
+        "valid_max": "40.0",
+        "C_format": "%9.3f",
+        "FORTRAN_format": "F9.3",
+        "resolution": "0.001"
+      },
+      "sample": [
+        27.38800048828125,
+        27.375,
+        27.302000045776367,
+        27.26799964904785,
+        27.246999740600586,
+        27.243000030517578,
+        27.23900032043457,
+        27.231000900268555,
+        27.226999282836914,
+        27.180999755859375,
+        26.874000549316406,
+        26.231000900268555,
+        25.461000442504883,
+        23.930999755859375,
+        21.16900062561035,
+        19.968000411987305,
+        19.70800018310547,
+        18.54599952697754,
+        18.069000244140625,
+        16.922000885009766
+      ]
+    },
+    "TEMP_ADJUSTED_QC": {
+      "dtype": "object",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "quality flag",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n"
+      ]
+    },
+    "TEMP_ADJUSTED_ERROR": {
+      "dtype": "float32",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "Contains the error on the adjusted values as determined by the delayed mode QC process",
+        "units": "degree_Celsius",
+        "C_format": "%9.3f",
+        "FORTRAN_format": "F9.3",
+        "resolution": "0.001"
+      },
+      "sample": [
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026,
+        0.0020000000949949026
+      ]
+    },
+    "PSAL": {
+      "dtype": "float32",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "Practical salinity",
+        "standard_name": "sea_water_salinity",
+        "units": "psu",
+        "valid_min": "2.0",
+        "valid_max": "41.0",
+        "C_format": "%9.3f",
+        "FORTRAN_format": "F9.3",
+        "resolution": "0.001"
+      },
+      "sample": [
+        35.37699890136719,
+        35.37699890136719,
+        35.375999450683594,
+        35.374000549316406,
+        35.37300109863281,
+        35.374000549316406,
+        35.375,
+        35.374000549316406,
+        35.37200164794922,
+        35.36899948120117,
+        35.4010009765625,
+        35.4010009765625,
+        35.4010009765625,
+        35.30400085449219,
+        35.13100051879883,
+        35.104000091552734,
+        35.10100173950195,
+        35.108001708984375,
+        35.10200119018555,
+        35.08399963378906
+      ]
+    },
+    "PSAL_QC": {
+      "dtype": "object",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "quality flag",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n"
+      ]
+    },
+    "PSAL_ADJUSTED": {
+      "dtype": "float32",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "Practical salinity",
+        "standard_name": "sea_water_salinity",
+        "units": "psu",
+        "valid_min": "2.0",
+        "valid_max": "41.0",
+        "C_format": "%9.3f",
+        "FORTRAN_format": "F9.3",
+        "resolution": "0.001"
+      },
+      "sample": [
+        35.37805938720703,
+        35.37834167480469,
+        35.377140045166016,
+        35.375038146972656,
+        35.373958587646484,
+        35.37495040893555,
+        35.37596893310547,
+        35.374961853027344,
+        35.37321090698242,
+        35.37089157104492,
+        35.40385055541992,
+        35.40441131591797,
+        35.40647888183594,
+        35.313758850097656,
+        35.13642120361328,
+        35.10599136352539,
+        35.106021881103516,
+        35.11077117919922,
+        35.10676956176758,
+        35.08649826049805
+      ]
+    },
+    "PSAL_ADJUSTED_QC": {
+      "dtype": "object",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "quality flag",
+        "conventions": "Argo reference table 2"
+      },
+      "sample": [
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n",
+        "11111111111111111111111111111111111111111111n",
+        "111111111111111111111111111111111111111111111",
+        "111111111111111111111111111111111111111111111",
+        "11111111111111111111111111111111111111111111n"
+      ]
+    },
+    "PSAL_ADJUSTED_ERROR": {
+      "dtype": "float32",
+      "shape": [
+        99,
+        45
+      ],
+      "attributes": {
+        "long_name": "Contains the error on the adjusted values as determined by the delayed mode QC process",
+        "units": "psu",
+        "C_format": "%9.3f",
+        "FORTRAN_format": "F9.3",
+        "resolution": "0.001"
+      },
+      "sample": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.010970000177621841,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    },
+    "PARAMETER": {
+      "dtype": "object",
+      "shape": [
+        99,
+        1,
+        3
+      ],
+      "attributes": {
+        "long_name": "List of parameters with calibration information",
+        "conventions": "Argo reference table 3"
+      },
+      "sample": [
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            ",
+        "PRES            TEMP            PSAL            "
+      ]
+    },
+    "SCIENTIFIC_CALIB_EQUATION": {
+      "dtype": "object",
+      "shape": [
+        99,
+        1,
+        3
+      ],
+      "attributes": {
+        "long_name": "Calibration equation for this parameter"
+      },
+      "sample": [
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 ",
+        "PRES_ADJUSTED = PRES - [PRES_SurfaceOffsetTruncatedplus5dbar_dBAR - 5]                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       PSAL_ADJUSTED = sal(CNDC,TEMP,PRES_ADJUSTED); PSAL_ADJ corrects conductivity cell thermal mass (CTM), Johnson et al, 2007, JAOT                                                                                                                                 "
+      ]
+    },
+    "SCIENTIFIC_CALIB_COEFFICIENT": {
+      "dtype": "object",
+      "shape": [
+        99,
+        1,
+        3
+      ],
+      "attributes": {
+        "long_name": "Calibration coefficients for this equation"
+      },
+      "sample": [
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            ",
+        "PRES_SurfaceOffsetTruncatedplus5dbar_dBAR in TECH file for N-1 profile                                                                                                                                                                                          no change                                                                                                                                                                                                                                                       same as for PRES_ADJUSTED; CTL: alpha=0.021, tau=21;                                                                                                                                                                                                            "
+      ]
+    },
+    "SCIENTIFIC_CALIB_COMMENT": {
+      "dtype": "object",
+      "shape": [
+        99,
+        1,
+        3
+      ],
+      "attributes": {
+        "long_name": "Comment applying to this parameter calibration"
+      },
+      "sample": [
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           ",
+        "Pressures adjusted using PRES_SurfaceOffsetTruncatedplus5dbar_dBAR; Pressure drift corrected; Manufacturers sensor accuracy                                                                                                                                     No significant temperature drift detected; SBE sensor accuracy                                                                                                                                                                                                  No significant salinity drift detected; Minimum error of 0.01 applies                                                                                                                                                                                           "
+      ]
+    },
+    "SCIENTIFIC_CALIB_DATE": {
+      "dtype": "object",
+      "shape": [
+        99,
+        1,
+        3
+      ],
+      "attributes": {
+        "long_name": "Date of calibration",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": [
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747",
+        "201008181807472010081818074720100818180747"
+      ]
+    },
+    "HISTORY_INSTITUTION": {
+      "dtype": "object",
+      "shape": [
+        0,
+        99
+      ],
+      "attributes": {
+        "long_name": "Institution which performed action",
+        "conventions": "Argo reference table 4"
+      },
+      "sample": []
+    },
+    "HISTORY_STEP": {
+      "dtype": "object",
+      "shape": [
+        0,
+        99
+      ],
+      "attributes": {
+        "long_name": "Step in data processing",
+        "conventions": "Argo reference table 12"
+      },
+      "sample": []
+    },
+    "HISTORY_SOFTWARE": {
+      "dtype": "object",
+      "shape": [
+        0,
+        99
+      ],
+      "attributes": {
+        "long_name": "Name of software which performed action",
+        "conventions": "Institution dependent"
+      },
+      "sample": []
+    },
+    "HISTORY_SOFTWARE_RELEASE": {
+      "dtype": "object",
+      "shape": [
+        0,
+        99
+      ],
+      "attributes": {
+        "long_name": "Version/release of software which performed action",
+        "conventions": "Institution dependent"
+      },
+      "sample": []
+    },
+    "HISTORY_REFERENCE": {
+      "dtype": "object",
+      "shape": [
+        0,
+        99
+      ],
+      "attributes": {
+        "long_name": "Reference of database",
+        "conventions": "Institution dependent"
+      },
+      "sample": []
+    },
+    "HISTORY_DATE": {
+      "dtype": "object",
+      "shape": [
+        0,
+        99
+      ],
+      "attributes": {
+        "long_name": "Date the history record was created",
+        "conventions": "YYYYMMDDHHMISS"
+      },
+      "sample": []
+    },
+    "HISTORY_ACTION": {
+      "dtype": "object",
+      "shape": [
+        0,
+        99
+      ],
+      "attributes": {
+        "long_name": "Action performed on data",
+        "conventions": "Argo reference table 7"
+      },
+      "sample": []
+    },
+    "HISTORY_PARAMETER": {
+      "dtype": "object",
+      "shape": [
+        0,
+        99
+      ],
+      "attributes": {
+        "long_name": "Station parameter action is performed on",
+        "conventions": "Argo reference table 3"
+      },
+      "sample": []
+    },
+    "HISTORY_START_PRES": {
+      "dtype": "float32",
+      "shape": [
+        0,
+        99
+      ],
+      "attributes": {
+        "long_name": "Start pressure action applied on",
+        "units": "decibar"
+      },
+      "sample": []
+    },
+    "HISTORY_STOP_PRES": {
+      "dtype": "float32",
+      "shape": [
+        0,
+        99
+      ],
+      "attributes": {
+        "long_name": "Stop pressure action applied on",
+        "units": "decibar"
+      },
+      "sample": []
+    },
+    "HISTORY_PREVIOUS_VALUE": {
+      "dtype": "float32",
+      "shape": [
+        0,
+        99
+      ],
+      "attributes": {
+        "long_name": "Parameter/Flag previous value before action"
+      },
+      "sample": []
+    },
+    "HISTORY_QCTEST": {
+      "dtype": "object",
+      "shape": [
+        0,
+        99
+      ],
+      "attributes": {
+        "long_name": "Documentation of tests performed, tests failed (in hex form)",
+        "conventions": "Write tests performed when ACTION=QCP$; tests failed when ACTION=QCF$"
+      },
+      "sample": []
+    }
+  }
+}
